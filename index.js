@@ -30,7 +30,7 @@ function viewCart() {
       if(cart.length === 1){
         inCart += ` ${getCart()[i].itemName} at $${getCart()[i].itemPrice}.`;
     } else if(cart.length === 2){
-       inCart += ` ${getCart()[i].itemName} at $${getCart()[i].itemPrice}, and ${getCart()[i].itemName} at $${getCart()[i].itemPrice}.`;
+       inCart += ``;
       } else {
         inCart += ``;
       }
